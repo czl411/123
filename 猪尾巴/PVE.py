@@ -3,9 +3,6 @@ import random
 import random as r
 import datetime
 import time
-qweqweqwe
-qweqweq
-qweqweq
 import math
 class Card:                     #卡牌类
     def __init__(self,sum=0):
@@ -178,7 +175,7 @@ while Cards.sum != 0:  # Cards表示卡组的状态
             tot += 1
             choice = ['C', 'D', 'H', 'S', 5]    # 1:C, 2:D, 3:H 4:S, 5:摸牌
             choice = judge(P[1], choice)   # 对P1UCB进行初始化
-            print(choice)
+            #print(choice)
             UCB = {}                    # 初始化UCB
             for j in choice:
                 UCB[j] = [0, 0]
