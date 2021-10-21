@@ -1,5 +1,17 @@
 import random as r
+00
+00.0
+0.
+0.
+0.
+0.0
 
+0321
+3
+0.
+0.
+0.2
+32
 class Card:                     #卡牌类
     def __init__(self,sum=0):
         self.sum = sum
