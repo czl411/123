@@ -3,6 +3,9 @@ import random
 import random as r
 import datetime
 import time
+qweqweqwe
+qweqweq
+qweqweq
 import math
 class Card:                     #卡牌类
     def __init__(self,sum=0):
